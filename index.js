@@ -156,6 +156,10 @@ function printHelpInfo() {
       -d            input folder contains all json files
       -dest         output file
 
+    Example:
+      postman-combine -dest output.json -f a.json b.json
+      postman-combine -dest output.json -d input
+
     Postman Combine loves you <3!
   `);
 }
