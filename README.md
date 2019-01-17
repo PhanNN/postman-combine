@@ -1,10 +1,10 @@
 # postman-combine
 Using to combine many postman collections to one (ex: for running newman + jenkins with one result)
 
-###Install:
+### Install:
   npm install postman-combine -g
   
-###How to use
+### How to use
   Combine many files to one
     *postman-combine* -dest output.json -f a.json b.json
   
