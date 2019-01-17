@@ -1,6 +1,6 @@
 {
   "name": "postman-combine",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Using to combine many postman collections to one (ex: for running newman + jenkins with one result)",
   "main": "index.js",
   "scripts": {
