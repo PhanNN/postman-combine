@@ -5,11 +5,11 @@ Using to combine many postman collections to one (ex: for running newman + jenki
   npm install postman-combine -g
   
 ### How to use
-  Combine many files to one
+  ##### Combine many files to one
     *postman-combine* -dest output.json -f a.json b.json
   
-  Combine all files inside folder to one
+  ##### Combine all files inside folder to one
     *postman-combine* -dest output.json -d input
   
-  Help
+  ##### Help
     *postman-combine* -h or postman-combine --help
