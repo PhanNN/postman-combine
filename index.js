@@ -24,7 +24,7 @@ async function main() {
     return;
   }
   const dstFile = srcDst.dstFile;
-  fs.readFile('template.json', 'utf8', async function readFileCallback(err, data)   {
+  fs.readFile(path.join(__dirname, 'template.json'), 'utf8', async function readFileCallback(err, data)   {
     if (err) {
       console.log(err);
     } else {
@@ -122,8 +122,8 @@ function getDestFile(destPos) {
 
 function getFolderFiles(dPos, args) {
   const folder = args[dPos + 1];
-  const relativePath = path.join(__dirname, folder);
-  return fs.readdirSync(path.join(__dirname, folder)).filter(it => {
+  const relativePath = path.join(process.cwd(), folder);
+  return fs.readdirSync(relativePath).filter(it => {
     return it.match(jsonFilePattern);
   }).map(it => {
     return path.join(relativePath, it);
