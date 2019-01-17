@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const fs = require('fs'),
 path = require('path'),
 ALL_VALID_AGRS = ['-f', '-d', '-dest'],

@@ -4,7 +4,8 @@
   "description": "Using to combine many postman collections to one (ex: for running newman + jenkins with one result)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "keywords": [
     "postman",
@@ -16,5 +17,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/PhanNN/postman-combine.git"
+  },
+  "bin": {
+    "postman-combine": "./index.js"
   }
 }
