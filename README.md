@@ -1,5 +1,5 @@
 # postman-combine
-Using to combine many postman collections to one (ex: for running newman + jenkins with one result)
+Using to combine many postman collections to one (ex: for running newman + jenkins with one result)__
 ```Note: support version 2.1```
 ```Older versions will be updated soon```
 
