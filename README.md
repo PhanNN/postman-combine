@@ -1,7 +1,15 @@
 # postman-combine
-Using to combine many postman collections to one (ex: for running newman + jenkins with one result)
 
-### Install:
+[![npm](https://img.shields.io/npm/v/postman-combine.svg)](https://www.npmjs.com/package/postman-combine)
+[![GitHub issues](https://img.shields.io/github/issues/PhanNN/postman-combine.svg)](https://github.com/PhanNN/postman-combine/issues)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/PhanNN/postman-combine/master/LICENSE)
+
+Using to combine many postman collections to one (ex: for running newman + jenkins with one result)  
+```Note: support version 2.1```  
+```Old versions will be updated soon```  
+TODO Phan: update old version
+
+### Install
   npm install postman-combine -g
   
 ### How to use
